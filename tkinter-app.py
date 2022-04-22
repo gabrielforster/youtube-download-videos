@@ -17,10 +17,6 @@ def getLink():
     bg="#ffbf00",
     pady=7.5).pack()
 
-downloadButton = Button(root,
-                        text="Download the video!", 
-                        command=getLink,
-                        padx=10,
-                        pady=5).pack()
+downloadButton = Button(root,text="Download the video!",bg="#2f93ef", command=getLink,padx=10,pady=5).pack()
 
 root.mainloop()
